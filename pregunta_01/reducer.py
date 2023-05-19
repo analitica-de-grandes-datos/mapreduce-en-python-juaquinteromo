@@ -1,15 +1,15 @@
 #
 # >>> Escriba el codigo del reducer a partir de este punto <<<
 import sys
-if __name__ == "_main_":
+if _name_ == "_main_":
     atributo = {}
     for linea in sys.stdin:
-        campos = linea.split("\n")
-        campos_credit = campos[0]
-        if campos_credit in atributo:
-            atributo[campos_credit] += 1
+        columnas = linea.split("\n")
+        columna_credit = columnas[0]
+        if columna_credit in atributo:
+            atributo[columna_credit] += 1
         else:
-            atributo[campos_credit] =1
+            atributo[columna_credit] =1
     atributo_sort = sorted(atributo.items())
     for atributo,valor in atributo_sort:
         sys.stdout.write(f"{atributo}\t{valor}\n")
