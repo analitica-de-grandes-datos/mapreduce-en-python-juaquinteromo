@@ -1,7 +1,7 @@
 #
 # >>> Escriba el codigo del reducer a partir de este punto <<<
 import sys
-if _name_ == "_main_":
+if __name__ == "__main__":
     atributo = {}
     for linea in sys.stdin:
         columnas = linea.split("\n")
