@@ -13,4 +13,6 @@ if __name__ == "_main_":
     atributo_sort = sorted(atributo.items())
     for atributo,valor in atributo_sort:
         sys.stdout.write(f"{atributo}\t{valor}\n")
+#se usa la función write
+
         
